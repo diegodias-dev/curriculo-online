@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: bisque;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            text-align: center;
+            padding-top: 2vh;
+            padding-bottom: 1vh;
+        }
+
+        #tela{
+            width: 50vh;
+            height: 700px;
+            border: 1px solid black;
+            border-radius: 10px;
+            
+        }
+
+        #telefone{
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        article{
+            margin: auto;
+            padding: 30px;
+            text-indent: 30px;
+            
+        }
+
+        a.link {
+            color: white;
+            text-decoration: none;
+            background-color: green;
+            border: 1px solid green;
+            padding: 10px;
+            border-radius: 10px;
+            
+        }
+        nav.menu{
+            display: flex;
+           justify-content: center;
+           gap: 10px;
+        }
+
+
+
+
+        footer{
+     
+            padding: 5px;
+            background-color: gray;
+            color: white;
+        }
+        footer a{
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+        }
+        footer p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Iframe</h1>
+
+    <nav class="menu">
+    <a href="https://diegodias-dev.github.io/site_Android/" target="frame" class="link">Projeto 1</a >
+    <a href="https://diegodias-dev.github.io/cordel_moderno/" target="frame" class="link">Projeto 2</a>
+    <a href="https://diegodias-dev.github.io/tabelas/" target="frame" class="link">Projeto 3</a>
+    <a href="https://github.com/diegodias-dev" target="frame" class="link">Projeto 4</a>       
+    </nav>
+    <main>
+    
+        <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias doloremque rem eaque, soluta incidunt minus ea praesentium veritatis laboriosam sapiente? Neque facere, saepe dolor nulla quidem labore asperiores rerum su Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eum unde totam eligendi magni accusantium ratione, numquam, optio, quod pariatur non labore neque illum consequatur atque culpa expedita hic consectetur!nt.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias doloremque rem eaque, soluta incidunt minus ea praesentium veritatis laboriosam sapiente? Neque facere, saepe dolor nulla quidem labore asperiores rerum su Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eum unde totam eligendi magni accusantium ratione, numquam, optio, quod pariatur non labore neque illum consequatur atque culpa expedita hic consectetur!nt.</p>
+        </article>
+    
+        <div id="telefone">
+            <iframe id="tela" name="frame"  src="Captura de tela de 2025-07-23 01-52-07.png" frameborder="0">  <!-- add o name frame que sera execultado apartir da target frame -->
+                <p>Infelizmente nao conseguimos exibir!</p>
+                <p>Tente usando o Chrome</p>
+            </iframe>
+        </div>
+        
+        
+
+        <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias doloremque rem eaque, soluta incidunt minus ea praesentium veritatis laboriosam sapiente? Neque facere, saepe dolor nulla quidem labore asperiores rerum su Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eum unde totam eligendi magni accusantium ratione, numquam, optio, quod pariatur non labore neque illum consequatur atque culpa expedita hic consectetur!nt.</p>
+        </article>    
+    
+    </main>
+
+    <footer>
+    <p>Desenvolvido por <a href="https://www.instagram.com/mr.diegodias/?igsh=MWowZnl0cGYzYXpyMg%3D%3D&utm_source=qr#" target="_blank">@Mr.Diegodias</a> meu <a href="https://github.com/diegodias-devfac" target="_blank">Github</a></p>
+
+</body>
+</html>
