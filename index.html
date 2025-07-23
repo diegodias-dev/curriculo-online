@@ -34,8 +34,8 @@
 
       .texto{
             margin: auto;
-            padding-right: 20vh;
-            padding-left: 20vh;
+            padding-right: 20px;
+            padding-left: 20px;
             text-indent: 30px;
             
         }
@@ -45,14 +45,18 @@
             text-decoration: none;
             background-color: green;
             border: 1px solid green;
-            padding: 10px;
-            border-radius: 10px;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bolder;
             
         }
         nav.menu{
-            display: flex;
-           justify-content: center;
+          
            gap: 10px;
+           padding-bottom: 20px;
+          padding: 10px 20px;
+          padding-bottom: 30px;
+           text-align: center;
         }
 
 
@@ -72,31 +76,61 @@
         footer p{
             text-align: center;
         }
+
+            header {
+            display: flex;
+            justify-content: center; /* centraliza horizontalmente */
+            align-items: center;     /* alinha verticalmente (se necessário) */
+            gap: 20px;               /* espaçamento entre os links */
+            padding: 20px 0;
+            flex-wrap: wrap;         /* quebra linha em telas menores */
+        }
+
+        header a {
+            font-weight: bolder;
+            text-decoration: none;
+            background-color: black;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+        }
+
+                .centro{
+                    text-align: center;
+                }
+                
+        
     </style>
 </head>
 <body>
-    <h1>Testando Iframe</h1>
-
-    <nav class="menu">
-    <a href="https://diegodias-dev.github.io/site_Android/" target="frame" class="link">Projeto 1</a >
-    <a href="https://diegodias-dev.github.io/cordel_moderno/" target="frame" class="link">Projeto 2</a>
-    <a href="https://diegodias-dev.github.io/tabelas/" target="frame" class="link">Projeto 3</a>
-       
-    </nav>
+    
     <main>
+         <h1>Diego Dias</h1>
+        
+        <header>
+                           
+                <a href="https://www.instagram.com/mr.diegodias/?igsh=MWowZnl0cGYzYXpyMg%3D%3D&utm_source=qr#" class="centro">Instagram</a>
+                <a href="https://github.com/diegodias-dev">GitHub</a>
+                <a href="https://www.linkedin.com/me?trk=p_mwlite_profile_self-secondary_nav">Linkedin</a>
+         
+        </header>
+
         <article class="texto">
-
+            
+            
+            <p><strong>Olá!</strong> Sou Diego, morador de Feira de Santana (BA), apaixonado por tecnologia e sempre em busca de evolução pessoal e profissional. Atualmente, estou cursando o 4º semestre do Tecnólogo em Análise e Desenvolvimento de Sistemas pela UniFan, onde venho desenvolvendo habilidades em linguagens como HTML, CSS, JavaScript, C e Python, além de adquirir domínio em sistemas operacionais Windows e Linux, manutenção de computadores, virtualização e scripts com Shell Script.
                 
-                <p><strong>Olá!</strong> Sou Diego, morador de Feira de Santana (BA), apaixonado por tecnologia e sempre em busca de evolução pessoal e profissional. Atualmente, estou cursando o 4º semestre do Tecnólogo em Análise e Desenvolvimento de Sistemas pela UniFan, onde venho desenvolvendo habilidades em linguagens como HTML, CSS, JavaScript, C e Python, além de adquirir domínio em sistemas operacionais Windows e Linux, manutenção de computadores, virtualização e scripts com Shell Script.
-
-                </p>
-                <p>Tenho experiência prática em atendimento ao público, suporte técnico e rotinas administrativas, tanto no ambiente corporativo quanto como empreendedor. Já atuei com gestão de pessoas, coordenação de equipes e no controle de processos como estoque, finanças e organização de serviços.
-
-                Também possuo domínio no uso do Pacote Office e sou organizado na criação de planilhas e controles administrativos, unindo raciocínio lógico com eficiência prática.
-
-                Sou uma pessoa proativa, focada, com facilidade de adaptação, perfil colaborativo e sempre disposta a aprender. Acredito que tecnologia é uma ferramenta de transformação — e estou pronto para fazer parte disso em qualquer time que valorize evolução e resultado.</p>
+            </p>
+            
         </article>    
         
+        <nav class="menu">
+            <a href="https://diegodias-dev.github.io/site_Android/" target="frame" class="link">Projeto 1</a >
+            <a href="https://diegodias-dev.github.io/cordel_moderno/" target="frame" class="link">Projeto 2</a>
+            <a href="https://diegodias-dev.github.io/tabelas/" target="frame" class="link">Projeto 3</a>
+           
+        </nav>
         
         <div id="telefone">
             <iframe id="tela" name="frame"  src="Captura de tela de 2025-07-23 01-52-07.png" frameborder="0">  <!-- add o name frame que sera execultado apartir da target frame -->
@@ -114,7 +148,11 @@
 
 
         <article class="texto">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta maiores assumenda illum aliquam quasi sapiente ut doloribus incidunt dolorem, qui alias molestias, eos officiis maxime consectetur et similique voluptate non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum magni nisi repudiandae. Accusantium sunt maxime pariatur ducimus quod recusandae quos atque cumque, molestias qui dolorum quisquam sequi enim ipsum eum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti inventore commodi sit sequi adipisci, ab qui aliquid iste totam quae sint! Aliquid commodi blanditiis sint aliquam repellat quod, distinctio eos.</p>
+             <p>Tenho experiência prática em atendimento ao público, suporte técnico e rotinas administrativas, tanto no ambiente corporativo quanto como empreendedor. Já atuei com gestão de pessoas, coordenação de equipes e no controle de processos como estoque, finanças e organização de serviços.
+
+                Também possuo domínio no uso do Pacote Office e sou organizado na criação de planilhas e controles administrativos, unindo raciocínio lógico com eficiência prática.
+
+                Sou uma pessoa proativa, focada, com facilidade de adaptação, perfil colaborativo e sempre disposta a aprender. Acredito que tecnologia é uma ferramenta de transformação — e estou pronto para fazer parte disso em qualquer time que valorize evolução e resultado.</p>
         </article>
 
 
